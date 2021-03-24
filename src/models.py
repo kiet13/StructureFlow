@@ -22,7 +22,6 @@ class StructureFlowModel(BaseModel):
 
         l1_loss = nn.L1Loss()
         adversarial_loss = AdversarialLoss(type=config.DIS_GAN_LOSS)
-        correctness_loss = PerceptualCorrectness()
         vgg_style = StyleLoss()
         vgg_content = PerceptualLoss()
         self.use_correction_loss = True
