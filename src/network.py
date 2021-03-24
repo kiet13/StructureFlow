@@ -4,7 +4,6 @@ import torch.nn.functional as F
 from torchvision import models 
 from torch.nn.utils.spectral_norm import spectral_norm
 # from spatial_correlation_sampler import spatial_correlation_sample 
-from .resample2d import Resample2d
 import torchvision.utils as vutils
 
 
