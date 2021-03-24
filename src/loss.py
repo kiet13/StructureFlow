@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torchvision.models as models
 import torch.nn.functional as F
-from .resample2d import Resample2d
 
 from .utils import write_2images
 
